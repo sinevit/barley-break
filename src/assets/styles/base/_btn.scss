@@ -1,0 +1,28 @@
+.btn{
+    // padding: 10px 5px;
+    width: 180px;
+    background: $color-brand;
+    color: $color-light;
+    font-family: 'Roboto', sans-serif;
+    @include font(1.6rem, 140%, 500);
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    @extend %transition;
+    cursor: pointer;
+    &:hover{
+        background: $color-btn-hover;
+    }
+    &:active{
+        background: $color-btn-active;
+    }
+
+    @include media-tablet{
+        width: 35%;
+        height: 35px;
+        font-family: 'Roboto', sans-serif;
+        @include font(1.2rem, 140%, 500);
+    }
+
+}
+

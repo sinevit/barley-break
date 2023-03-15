@@ -1,0 +1,55 @@
+footer{
+    width: auto;
+
+.footer__wrapper{
+    max-width: 76rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+
+    .frame__size{
+
+    }
+
+    .all__size{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+        .footer__text{
+            margin:0;
+        }
+
+        .size__list{
+            margin: 0;
+            padding: 0;
+            display: flex;
+
+            .size__item{
+                padding-right: 1rem;
+                display: flex;
+                text-decoration-line: underline;
+                font-family: 'Roboto', sans-serif;
+                @include font(2rem, 130%, 400);
+                color: $color-brand;
+            
+                &:hover{
+                    cursor: pointer;
+                    color: $color-text;
+                }
+
+                @include media-tablet{
+                    font-family: 'Roboto', sans-serif;
+                    @include font(1.6rem, 130%, 400);
+                }
+            }
+        }
+    }
+      
+}
+
+}

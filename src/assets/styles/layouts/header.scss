@@ -1,0 +1,44 @@
+.header{
+    width: auto;
+
+    .header__options{
+        max-width: 76rem;
+        margin: 0 auto;
+        padding: 0 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .btn__wrapper{
+            width: 100%;
+            padding: 2rem 0 0;
+            display: flex;
+            justify-content: center;
+            gap: 5rem;
+
+            @include media-tablet{
+                flex-wrap: wrap;
+                gap: 1rem;
+            }
+
+            .volume{
+                background: url('https://img.icons8.com/windows/32/FFFFFF/high-volume--v1.png') center no-repeat;
+                background-color: $color-brand;
+            }
+            .mute{
+                background: url('https://img.icons8.com/windows/32/FFFFFF/mute--v1.png') center no-repeat;
+                background-color: $color-brand;
+            }
+        }
+        .state__wrapper{
+            display: flex;
+            justify-content: space-evenly;
+            gap: 5rem;
+
+            @include media-tablet{
+                gap: 1rem;
+            }
+
+        }
+    }
+}
