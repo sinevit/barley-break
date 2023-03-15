@@ -1,4 +1,4 @@
-# sinevit-JSFE2022Q3
+# sinevit
 Private repository for @sinevit
 
-https://rolling-scopes-school.github.io/sinevit-JSFE2022Q3/puzzie/
+https://sinevit.github.io//barley-break/dist/
